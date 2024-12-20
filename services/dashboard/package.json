@@ -1,5 +1,5 @@
 {
-  "name": "ms-dashboard",
+  "name": "services.dashboard",
   "private": true,
   "type": "module",
   "scripts": {

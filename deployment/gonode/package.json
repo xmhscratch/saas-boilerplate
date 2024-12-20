@@ -1,5 +1,5 @@
 {
-    "name": "dp-gonode",
+    "name": "deploy.gonode",
     "private": true,
     "type": "module",
     "scripts": {
