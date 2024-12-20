@@ -1,0 +1,89 @@
+{
+  "name": "saas",
+  "version": "1.0.0",
+  "main": "./system/cli.js",
+  "scripts": {
+    "start": "node ./system/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sequelize": "./node_modules/.bin/sequelize",
+    "sequelize-auto": "./node_modules/.bin/sequelize-auto"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "workspaces": [
+    "./cms",
+    "./auth",
+    "./deployment/**",
+    "./services/**"
+  ],
+  "opencv4nodejs": {
+    "disableAutoBuild": "1",
+    "autoBuildOpencvVersion": "3.4.16",
+    "OPENCV_INCLUDE_DIR": "/usr/include/opencv",
+    "OPENCV_LIB_DIR": "/usr/lib",
+    "OPENCV_BIN_DIR": "/usr/bin"
+  },
+  "peerDependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "del": "6.1.1",
+    "fb-watchman": "2.0.1",
+    "inquirer": "^12.2.0",
+    "morgan": "1.10.0",
+    "request": "2.88.2",
+    "request-debug": "0.2.0",
+    "sequelize-auto": "0.8.8",
+    "sequelize-cli": "6.4.1"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.31.0",
+    "amqp-connection-manager": "4.1.7",
+    "amqplib": "0.10.2",
+    "archiver": "5.3.1",
+    "aws-sdk": "2.1204.0",
+    "bcrypt": "5.0.1",
+    "better-sqlite3": "^11.7.0",
+    "bluebird": "3.5.5",
+    "connect-redis": "4.0.4",
+    "dayjs": "1.11.5",
+    "ejs": "3.1.8",
+    "flat": "5.0.2",
+    "gm": "1.23.1",
+    "googleapis": "97.0.0",
+    "hash-sum": "2.0.0",
+    "hashids": "2.2.10",
+    "image-size": "1.0.2",
+    "invert-color": "2.0.0",
+    "js-base64": "3.7.2",
+    "ksuid": "3.0.0",
+    "lodash-es": "^4.17.21",
+    "mathjs": "11.1.0",
+    "mime": "3.0.0",
+    "mkdirp": "1.0.4",
+    "moment": "2.29.4",
+    "mongodb": "4.9.0",
+    "multer": "1.4.5-lts.1",
+    "mustache": "4.2.0",
+    "nodemailer": "6.7.8",
+    "oauth": "0.9.15",
+    "object-hash": "2.2.0",
+    "parse-json": "5.2.0",
+    "paypal-rest-sdk": "1.8.1",
+    "pngcrush-bin": "6.0.1",
+    "pump": "3.0.0",
+    "puppeteer": "16.2.0",
+    "randomcolor": "0.6.2",
+    "redis": "3.1.2",
+    "smartcrop-gm": "2.0.2",
+    "socket.io": "4.4.1",
+    "socket.io-redis": "6.1.1",
+    "speakingurl": "14.0.1",
+    "tough-cookie-file-store": "2.0.3",
+    "uuid": "8.3.2"
+  }
+}
